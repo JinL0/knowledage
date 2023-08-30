@@ -16,7 +16,7 @@ def binary_search(array) -> int:
     return left
 ```
 ### key points
-- Correctly initialize the boundary variables `left`` and `right` to specify search space. Only one rule: set up the boundary to **include all possible elements**;
+- Correctly initialize the boundary variables `left` and `right` to specify search space. Only one rule: set up the boundary to **include all possible elements**;
 - Decide return value. Is it `return left` or `return left - 1`? Remember this: after exiting the while loop, left is the `minimal k`​ satisfying the condition function;
 - Design the `condition` function. This is the most difficult and most beautiful part. Needs lots of practice.
 
