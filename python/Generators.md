@@ -84,3 +84,6 @@ Generators are iterators, but you can only iterate over them once. It’s becaus
 8
 9
 ```
+
+reference:
+https://book.pythontips.com/en/latest/generators.html
